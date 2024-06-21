@@ -34,7 +34,7 @@ const insertDocuments = async () => {
     await Category.insertMany([
       { name: "Men" },
       { name: "Women" },
-      { name: "Teens" }
+      { name: "Kevine" }
     ]);
 
     console.log('Documents inserted successfully');
