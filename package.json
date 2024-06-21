@@ -1,9 +1,8 @@
 {
   "name": "assignment2_backend",
   "version": "1.0.0",
-  "description": "\"# Marketplace\"",
-  "main": "category.model.js",
-  "devDependencies": {},
+  "description": "Marketplace backend",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -17,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/WUDKVN/Marketplace/issues"
   },
-  "homepage": "https://github.com/WUDKVN/Marketplace#readme"
+  "homepage": "https://github.com/WUDKVN/Marketplace#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  }
 }
