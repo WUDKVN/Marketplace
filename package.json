@@ -1,25 +1,27 @@
 {
-  "name": "assignment2_backend",
-  "version": "0.0.1",
-  "description": "backend",
+  "name": "dress-store",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "kevine",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WUDKVN/Marketplace.git"
   },
-  "author": "WUDKVN",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/WUDKVN/Marketplace/issues"
   },
   "homepage": "https://github.com/WUDKVN/Marketplace#readme",
-  "keywords": [],
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "mongoose": "^8.4.3"
-  }
+  "description": ""
 }
