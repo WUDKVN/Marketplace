@@ -1,0 +1,25 @@
+{
+  "name": "assignment2_backend",
+  "version": "0.0.1",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WUDKVN/Marketplace.git"
+  },
+  "author": "WUDKVN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WUDKVN/Marketplace/issues"
+  },
+  "homepage": "https://github.com/WUDKVN/Marketplace#readme",
+  "keywords": [],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3"
+  }
+}
